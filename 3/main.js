@@ -6,7 +6,7 @@ function run(){
         }
     }
     xmlXttp.open('GET', 'https://jsonkeeper.com/b/LUH3',true);
-    xmlXttp.send();
+    xmlXttp.send(null);
 }
 function data(dataJSON){
     var allData = JSON.parse(dataJSON.responseText);
